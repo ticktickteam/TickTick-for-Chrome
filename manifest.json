@@ -1,0 +1,23 @@
+{
+  "name": "TickTick",
+  "description": "Life can be different",
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "app": {
+    "urls": [
+      "*://ticktick.com/"
+    ],
+    "launch": {
+      "web_url": "http://ticktick.com",
+      "container": "panel",
+      "frame": "none"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}

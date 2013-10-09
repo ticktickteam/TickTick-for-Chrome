@@ -1,16 +1,16 @@
 {
-  "name": "TickTick",
-  "description": "Life can be different",
+  "name": "__MSG_ext_name__",
+  "description": "__MSG_description__",
   "manifest_version": 2,
   "version": "0.1.0",
+  "default_locale": "en",
   "app": {
     "urls": [
       "*://ticktick.com/"
     ],
     "launch": {
       "web_url": "http://ticktick.com",
-      "container": "panel",
-      "frame": "none"
+      "container": "panel"
     }
   },
   "icons": {
